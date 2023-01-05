@@ -3,7 +3,7 @@ FROM openjdk:8-jre-slim-buster
 
 # set shell to bash
 # source: https://stackoverflow.com/a/40944512/3128926
-RUN apk update && apk add bash
+#RUN apk update && apk add bash
 
 # Set the working directory to /app
 WORKDIR /app
